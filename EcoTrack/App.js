@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 // OnboardingScreen component import
 import OnboardingScreen from './screens/OnboardingScreen';
+// Signup Screen component import
 import SignUpLoginScreen from './screens/SignUpLoginScreen';
 
 const Stack = createStackNavigator();
