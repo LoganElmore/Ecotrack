@@ -14,5 +14,15 @@ const HomeScreen = ({navigation}) => {
             <Text>{item.title}</Text>
             <Text>{item.impact}</Text>
         </View>
+    );
+        
+
+    return (
+        <View style={styles.container}>
+        <Text style={styles.title}>Weekly Summary</Text>
+        <Text>Total Carbon Emissions: 66 kg CO2</Text>
+        <Text>Water Usage: 200 gallons</Text>
+        <Text>Waste Generated: 30 kg</Text>
+        </View>
     )
 }
