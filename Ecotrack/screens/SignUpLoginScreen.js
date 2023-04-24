@@ -28,7 +28,7 @@ const SignUpLoginScreen = ({ navigation }) => {
         {/* Sign Up button, navigates to SignUp screen */}
         <TouchableOpacity
           style={styles.signUpButton}
-          onPress={() => navigation.navigate('SignUp')}
+          onPress={() => navigation.navigate('SignUpScreen')}
         >
           <Text style={styles.buttonText}>Sign Up</Text>
         </TouchableOpacity>
@@ -36,7 +36,7 @@ const SignUpLoginScreen = ({ navigation }) => {
         {/* Login button, navigates to Home screen */}
         <TouchableOpacity
           style={styles.loginButton}
-          onPress={() => navigation.navigate('Home')}
+          onPress={() => navigation.navigate('HomeScreen')}
         >
           <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>

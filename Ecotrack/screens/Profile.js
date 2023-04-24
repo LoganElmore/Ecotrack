@@ -31,9 +31,10 @@ const Profile = ({ navigation }) => {
       <Text style={styles.title}>Create Your Profile</Text>
 
       {/* Optional Profile Photo */}
-      <Image
+      {/*<Image
         style={styles.profileImage}
         source={require('./path/to/your/default/profile/image.png')}
+        /*}
       />
 
       {/* Name input field */}

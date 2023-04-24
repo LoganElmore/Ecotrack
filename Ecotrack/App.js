@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 // Import the required screen components
 import OnboardingScreen from './screens/OnboardingScreen';
 import SignUpLoginScreen from './screens/SignUpLoginScreen';
-import SignUpScreen from './screens/SignUpForm'; // Import the SignUpScreen component
+import SignUpScreen from './screens/SignUpScreen'; // Import the SignUpScreen component
 import HomeScreen from './screens/HomeScreen'; // Import the HomeScreen component
 import Profile from './screens/Profile';
 
@@ -21,23 +21,22 @@ const App = () => {
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          name="SignUpLogin"
+          name="SignUpLoginScreen"
           component={SignUpLoginScreen}
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          name="SignUpForm"
-          component={SignUpForm}
+          name="SignUpScreen"
+          component={SignUpScreen}
           options={{ headerShown: false }}
-        
         />
         <Stack.Screen
           name="Profile"
           component={Profile}
           options={{ headerShown: false }}
         />
-        <Stack.Screen
-          name="Home"
+        {/*<Stack.Screen
+          name="HomeScreen"
           component={HomeScreen}
           options={{ headerShown: false }}
         />

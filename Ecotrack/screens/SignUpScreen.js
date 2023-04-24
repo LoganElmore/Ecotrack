@@ -8,15 +8,15 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-const SignUpScreen = ({ navigation }) => {
+const SignUpForm = ({ navigation }) => {
   // Declare state variables for email and password
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   // Handle the Create Account button press
   const handleCreateAccount = () => {
-    // Navigate to Home screen after creating an account
-    navigation.navigate('Home');
+    // Navigate to Profile screen after creating an account
+    navigation.navigate('Profile');
   };
 
   // Render the SignUpScreen component

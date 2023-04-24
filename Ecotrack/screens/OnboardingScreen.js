@@ -4,7 +4,9 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 const OnboardingScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Image source={require('./path/to/your/logo.png')} style={styles.logo} />
+      {/*<Image style={{ width: 100, height: 100 }}
+      source={require('./assets/EcoTrack-logo.png')}/>*/}
+
       <Text style={styles.appName}>EcoTrack</Text>
       <Text style={styles.description}>
         Monitor your daily activities and their environmental impact to make
@@ -12,7 +14,7 @@ const OnboardingScreen = ({ navigation }) => {
       </Text>
       <TouchableOpacity
         style={styles.getStartedButton}
-        onPress={() => navigation.navigate('SignUpLogin')}
+        onPress={() => navigation.navigate('SignUpLoginScreen')}
       >
         <Text style={styles.getStartedText}>Get Started</Text>
       </TouchableOpacity>
