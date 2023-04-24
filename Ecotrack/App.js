@@ -7,6 +7,7 @@ import OnboardingScreen from './screens/OnboardingScreen';
 import SignUpLoginScreen from './screens/SignUpLoginScreen';
 import SignUpScreen from './screens/SignUpScreen'; // Import the SignUpScreen component
 import HomeScreen from './screens/HomeScreen'; // Import the HomeScreen component
+import Profile from './screens/Profile';
 
 const Stack = createStackNavigator();
 
@@ -28,12 +29,19 @@ const App = () => {
           name="SignUp"
           component={SignUp}
           options={{ headerShown: false }}
+        
+        />
+        <Stack.Screen
+          name="Profile"
+          component={Profile}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Home"
           component={Home}
           options={{ headerShown: false }}
         />
+        
         {/* Add more screens as needed */}
       </Stack.Navigator>
     </NavigationContainer>
