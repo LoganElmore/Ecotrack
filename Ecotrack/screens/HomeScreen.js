@@ -16,13 +16,18 @@ const HomeScreen = ({navigation}) => {
         </View>
     );
         
-
     return (
         <View style={styles.container}>
         <Text style={styles.title}>Weekly Summary</Text>
         <Text>Total Carbon Emissions: 66 kg CO2</Text>
         <Text>Water Usage: 200 gallons</Text>
         <Text>Waste Generated: 30 kg</Text>
+        
+        <TouchableOpacity
+            style={styles.addButton}
+            onPress={() => navigation.navigate ('AddActivity')}>     
+            <Text style={styles.buttonText}>+Add Activity</Text>
+        </TouchableOpacity>
         </View>
     )
 }

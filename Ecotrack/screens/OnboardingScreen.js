@@ -1,4 +1,3 @@
-import Logo from './screens/Logo';
 import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
@@ -6,7 +5,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 const OnboardingScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Logo/>
+    
       <Text style={styles.appName}>EcoTrack</Text>
       <Text style={styles.description}>
         Monitor your daily activities and their environmental impact to make
