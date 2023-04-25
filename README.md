@@ -56,10 +56,13 @@ Allow users to filter activities by type or date history (e.g., transportation, 
 When a date with activities is selected, show a list of activities with their corresponding environmental impact data.
 
 
+
+
+
 # Requirements Met
 Onboarding Screen (COMPLETED)
 ----------------
-A simple welcome screen with the app’s logo and name, “EcoTrack.” (No logo though :( )
+A simple welcome screen with the app’s logo and name, “EcoTrack.” **(No logo though :( )**
 A brief description of the app's purpose and functionality.
 A "Get Started" button that navigates to the Sign Up / Login screen.
 
@@ -70,7 +73,7 @@ Include "Sign Up" and "Login" buttons.
 
 Profile Creation/Initial Tracking Metrics Screen (Completed - Sorta)
 ----------------
-Optional Profile Photo (I had the biggest difficulty uploading images and photos using JS and sacrificied this option for placeholders).
+Optional Profile Photo **(I had the biggest difficulty uploading images and photos using JS and sacrificied this option for placeholders).**
 Name input field
 Transportation Method Selection
 Car, Bike, Walking, Public Transportation, Other
