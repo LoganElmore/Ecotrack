@@ -1,3 +1,9 @@
+Connect with me on LinkedIn:
+https://www.linkedin.com/in/logan-elmore/
+
+Visit my Portfolio Site:
+https://wwww.loganelmoredesign.com
+
 # Ecotrack
  Task management and data tracking application for Mobile Dev Spring 2023.
 
