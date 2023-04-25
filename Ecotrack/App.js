@@ -3,11 +3,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 // Import the required screen components
-import OnboardingScreen from './screens/OnboardingScreen';
-import SignUpLoginScreen from './screens/SignUpLoginScreen';
+import OnboardingScreen from './screens/OnboardingScreen'; // Import the Onboarding component
+import SignUpLoginScreen from './screens/SignUpLoginScreen'; // Import the SignUpLoginScreen component
 import SignUpScreen from './screens/SignUpScreen'; // Import the SignUpScreen component
 import HomeScreen from './screens/HomeScreen'; // Import the HomeScreen component
-import Profile from './screens/Profile';
+import Profile from './screens/Profile'; // Import the Profile component
+import ProfileHome from './screens/ProfileHome'; // Import the Profile Home component
 
 const Stack = createStackNavigator();
 
@@ -38,6 +39,11 @@ const App = () => {
         <Stack.Screen
           name="HomeScreen"
           component={HomeScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="ProfileHome"
+          component={ProfileHome}
           options={{ headerShown: false }}
         />
         
