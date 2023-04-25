@@ -91,7 +91,7 @@ Include a "+Add Activity" button to add a new activity to the log.
 Display a list of recent activities with their respective environmental impact.
 Provide a navigation menu with links to the following screens: Home, History, and Tips.
 
-Add Activity Screen
+Add Activity Screen (Functional)
 ----------------
 Provide a form to input activity data, including activity type (e.g., transportation, food consumption, waste generation), date, and other details.
 Include a "Save" button to store the activity data and update the user's environmental impact on the Home Screen. **(Not fully functional, does not import into the Home Dashboard)**
