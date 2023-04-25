@@ -2,14 +2,15 @@ import React, {useState, useEffect} from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
 const ProfileHome = () => {
-    cont [Profile, setProfile] = useState({
-        name:'',
+    const [profile, setProfile] = useState({
+        name: '',
         photo: null,
-        transportation:'',
-        vehicleType:'',
-        heatingSource:'',
-        numberOfPeople:'',
+        transportation: '',
+        vehicleType: '',
+        heatingSource: '',
+        numberOfPeople: '',
     });
+    
 
     // Data simulating input from Profile.js form
     useEffect(() => {
