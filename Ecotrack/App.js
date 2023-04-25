@@ -9,6 +9,7 @@ import SignUpScreen from './screens/SignUpScreen'; // Import the SignUpScreen co
 import HomeScreen from './screens/HomeScreen'; // Import the HomeScreen component
 import Profile from './screens/Profile'; // Import the Profile component
 import ProfileHome from './screens/ProfileHome'; // Import the Profile Home component
+import AddActivity from './screens/AddActivity'; // Import the Add Activity component
 
 const Stack = createStackNavigator();
 
@@ -44,6 +45,11 @@ const App = () => {
         <Stack.Screen
           name="ProfileHome"
           component={ProfileHome}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="AddActivity"
+          component={AddActivity}
           options={{ headerShown: false }}
         />
         
