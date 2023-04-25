@@ -1,10 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 
-
+//Fuck adding a logo I guess :( It was a cool one too
+{/*const logo = Asset.fromModule(require('./assets/logo.png')).uri;*/}
 const OnboardingScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
+      
+    
+
     
       <Text style={styles.appName}>EcoTrack</Text>
       <Text style={styles.description}>
