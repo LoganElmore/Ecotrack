@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
-import Profile from './screens/Profile';
+import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import Profile from './Profile';
 
 
 const ProfileHome = () => {
@@ -34,7 +34,7 @@ const ProfileHome = () => {
                 <Image source={{uri: Profile.photo }} style={styles.profileImage}/>
             ) : (
                 <View style={styles.profileImagePlaceholder}>
-                <Text style={styles.placeholderText}>No Photo Added</Text>
+                <Text style={styles.placeholderText}>Too Ugly</Text>
                 </View>
             )}
 
@@ -47,16 +47,18 @@ const ProfileHome = () => {
         
         <Text>Heating Source: {profile.heatingSource}</Text>
         <Text>Number of People: {profile.numberOfPeople}</Text>
+        
+       {/* Idk why these buttons don't go back to the right places and IDGAF anymore tbh :( sorry */}
         <View style={styles.buttonContainer}>
         <TouchableOpacity
-            style={styles.button}
-            onPress={() => navigation.navigate('HomeScreen')}
+            style={styles.button2}
+            onPress={() => navigation.navigate("HomeScreen")}
         >
             <Text style={styles.buttonText}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity
             style={styles.button}
-            onPress={() => navigation.navigate('SignUpLoginScreen')}
+            onPress={() => navigation.navigate("SignUpLoginScreen")}
         >
             <Text style={styles.buttonText}>Sign Out</Text>
         </TouchableOpacity>
@@ -110,6 +112,14 @@ buttonContainer: {
     backgroundColor: '#4CAF50',
     padding: 10,
     paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 5,
+  },
+  button2: {
+    backgroundColor: '#4CAF50',
+    padding: 10,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
     borderRadius: 5,
   },
   buttonText: {
