@@ -47,3 +47,41 @@ const ProfileHome = () => {
         </View>
         );
 };
+
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#F0F8FF',
+        padding: 20,
+    },
+title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+},
+profileImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    marginBottom: 20,
+},
+profileImagePlaceholder: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: '#CCC',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 20,
+},
+placeholderText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#FFF',
+},
+});
+
+export default ProfileHome;
