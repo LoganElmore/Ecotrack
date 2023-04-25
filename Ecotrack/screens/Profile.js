@@ -23,7 +23,7 @@ const Profile = ({ navigation }) => {
 
   // Handle profile creation and transition to the Home screen
   const handleProfileCreation = () => {
-    navigation.navigate('Home');
+    navigation.navigate("HomeScreen");
   };
 
   return (
@@ -97,7 +97,6 @@ const Profile = ({ navigation }) => {
         <Picker.Item label="Electric" value="electric" />
         <Picker.Item label="Natural Gas" value="natural_gas" />
         <Picker.Item label="Oil" value="oil" />
-        <Picker.Item label="Wood" value="wood" />
         <Picker.Item label="Other" value="other" />
     </Picker>
 
