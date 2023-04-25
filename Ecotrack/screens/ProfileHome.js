@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
+import Profile from './screens/Profile';
+
 
 const ProfileHome = () => {
     const [profile, setProfile] = useState({
