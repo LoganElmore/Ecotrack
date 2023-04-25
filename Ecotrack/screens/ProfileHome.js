@@ -47,7 +47,23 @@ const ProfileHome = () => {
         
         <Text>Heating Source: {profile.heatingSource}</Text>
         <Text>Number of People: {profile.numberOfPeople}</Text>
+        <View style={styles.buttonContainer}>
+        <TouchableOpacity
+            style={styles.button}
+            onPress={() => navigation.navigate('HomeScreen')}
+        >
+            <Text style={styles.buttonText}>Home</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+            style={styles.button}
+            onPress={() => navigation.navigate('SignUpLoginScreen')}
+        >
+            <Text style={styles.buttonText}>Sign Out</Text>
+        </TouchableOpacity>
         </View>
+
+        </View>
+        
         );
 };
 
@@ -85,6 +101,21 @@ placeholderText: {
     fontWeight: 'bold',
     color: '#FFF',
 },
+buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginTop: 20,
+  },
+  button: {
+    backgroundColor: '#4CAF50',
+    padding: 10,
+    paddingHorizontal: 20,
+    borderRadius: 5,
+  },
+  buttonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+  },  
 });
 
 export default ProfileHome;
