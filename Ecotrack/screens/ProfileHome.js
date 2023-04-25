@@ -3,7 +3,7 @@ import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import Profile from './Profile';
 
 
-const ProfileHome = () => {
+const ProfileHome = ({navigation}) => {
     const [profile, setProfile] = useState({
         name: '',
         photo: null,
@@ -48,7 +48,6 @@ const ProfileHome = () => {
         <Text>Heating Source: {profile.heatingSource}</Text>
         <Text>Number of People: {profile.numberOfPeople}</Text>
         
-       {/* Idk why these buttons don't go back to the right places and IDGAF anymore tbh :( sorry */}
         <View style={styles.buttonContainer}>
         <TouchableOpacity
             style={styles.button2}
