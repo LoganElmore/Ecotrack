@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/LoganElmore/Ecotrack/static/js/main.bb76ccc6.js",
+    "static/js/557.1d61f753.js": "/LoganElmore/Ecotrack/static/js/557.1d61f753.js",
+    "favicon.ico": "/LoganElmore/Ecotrack/favicon.ico",
+    "index.html": "/LoganElmore/Ecotrack/index.html",
+    "favicon-32.png": "/LoganElmore/Ecotrack/favicon-32.png",
+    "favicon-16.png": "/LoganElmore/Ecotrack/favicon-16.png",
+    "serve.json": "/LoganElmore/Ecotrack/serve.json",
+    "manifest.json": "/LoganElmore/Ecotrack/manifest.json",
+    "main.bb76ccc6.js.map": "/LoganElmore/Ecotrack/static/js/main.bb76ccc6.js.map",
+    "557.1d61f753.js.map": "/LoganElmore/Ecotrack/static/js/557.1d61f753.js.map"
+  },
+  "entrypoints": [
+    "static/js/557.1d61f753.js",
+    "static/js/main.bb76ccc6.js"
+  ]
+}
